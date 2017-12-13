@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Kaggle Competition,Machine Learning," />
 
 
 
@@ -79,13 +79,21 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Xiaojuan Tian">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="This is a competition from Kaggle. In this competition, you’re challenged to build a model that predicts the probability that a driver will initiate an auto ins">
+<meta name="keywords" content="Kaggle Competition,Machine Learning">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Kaggle Competition - Porto Seguro Safety Driver Prediction">
+<meta property="og:url" content="http://yoursite.com/2017/11/30/porto_seguro_safety_driver/index.html">
 <meta property="og:site_name" content="Xiaojuan Tian">
+<meta property="og:description" content="This is a competition from Kaggle. In this competition, you’re challenged to build a model that predicts the probability that a driver will initiate an auto insurance claim in the next year.  The blog">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="http://yoursite.com/images/ROC.png">
+<meta property="og:image" content="http://yoursite.com/images/stacking.png">
+<meta property="og:updated_time" content="2017-12-13T15:30:00.059Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Xiaojuan Tian">
+<meta name="twitter:title" content="Kaggle Competition - Porto Seguro Safety Driver Prediction">
+<meta name="twitter:description" content="This is a competition from Kaggle. In this competition, you’re challenged to build a model that predicts the probability that a driver will initiate an auto insurance claim in the next year.  The blog">
+<meta name="twitter:image" content="http://yoursite.com/images/ROC.png">
 
 
 
@@ -115,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/11/30/porto_seguro_safety_driver/"/>
 
 
 
 
 
-  <title>Xiaojuan Tian</title>
+  <title>Kaggle Competition - Porto Seguro Safety Driver Prediction | Xiaojuan Tian</title>
   
 
 
@@ -140,8 +148,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -234,9 +241,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -266,9 +273,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/11/30/porto_seguro_safety_driver/" itemprop="url">Kaggle Competition - Porto Seguro Safety Driver Prediction</a></h1>
+          <h1 class="post-title" itemprop="name headline">Kaggle Competition - Porto Seguro Safety Driver Prediction</h1>
         
 
         <div class="post-meta">
@@ -340,9 +345,7 @@
       
 
       
-        
-          
-            <p>This is <a href="https://www.kaggle.com/c/porto-seguro-safe-driver-prediction" target="_blank" rel="noopener">a competition from Kaggle</a>. In this competition, you’re challenged to build a model that predicts the probability that a driver will initiate an auto insurance claim in the next year. </p>
+        <p>This is <a href="https://www.kaggle.com/c/porto-seguro-safe-driver-prediction" target="_blank" rel="noopener">a competition from Kaggle</a>. In this competition, you’re challenged to build a model that predicts the probability that a driver will initiate an auto insurance claim in the next year. </p>
 <p>The blog shows how we did the competition. Detailed code is …..</p>
 <h3 id="Metrics"><a href="#Metrics" class="headerlink" title="Metrics"></a>Metrics</h3><p>It is important to understand the output required and evaluation metric at the beginning stage for a machine learning problem. Is it a regression or classification problem? If it is classification, what kind of output is required? Predict class or predict probability? What evaluation metrics we should choose? Accuracy, F1 score, Precision and Recall, ROC curve? </p>
 <p>For this competition, gini_coefficient is required as the evaluation metric from the host. </p>
@@ -403,8 +406,6 @@
 <p>Kernel (RGF)</p>
 <p>Wangrui(mean methods applied)</p>
 
-          
-        
       
     </div>
     
@@ -419,14 +420,22 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Kaggle-Competition/" rel="tag"># Kaggle Competition</a>
+          
+            <a href="/tags/Machine-Learning/" rel="tag"># Machine Learning</a>
+          
+        </div>
+      
+
+      
+      
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -436,10 +445,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -447,6 +457,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -467,8 +481,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -534,6 +557,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Metrics"><span class="nav-number">1.</span> <span class="nav-text">Metrics</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Data-exploration"><span class="nav-number">2.</span> <span class="nav-text">Data exploration</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Base-models-we-have-tried"><span class="nav-number">3.</span> <span class="nav-text">Base models we have tried</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Combine-base-models"><span class="nav-number">4.</span> <span class="nav-text">Combine base models</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -667,6 +706,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
 
   
 
